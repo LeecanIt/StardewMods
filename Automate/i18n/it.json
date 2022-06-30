@@ -1,0 +1,35 @@
+{
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "Opzioni principali",
+    "config.enabled.name": "Abilitata",
+    "config.enabled.desc": "Decidi se abilitare le funzionalità di automazione. Se disabilitato, i macchinari non saranno automatizzati e l'overlay non comparirà.",
+    "config.junimo-huts-output-gems.name": "Le capanne Junimo producono gemme",
+    "config.junimo-huts-output-gems.desc": "Decidi se estrarre gemme dalle capanne Junimo. Se abilitato, non sarai in grado di cambiare i colori dei Junimo posizionando pietre preziose nelle loro capanne.",
+    "config.automation-interval.name": "Intervallo di automazione",
+    "config.automation-interval.desc": "Il numero di intervalli fra processi automatici (60 per uno al secondo, 120 per ogni due secondi, ecc).",
+    "config.toggle-overlay-key.name": "Tasto overlay",
+    "config.toggle-overlay-key.desc": "I tasti che abilitano l'automazione dell'overlay.",
+
+    // mod compatibility
+    "config.title.mod-compatibility": "Compatibilità mod",
+    "config.better-junimos.name": "Junimo Migliorati",
+    "config.better-junimos.desc": "Abilita la compatibilità con Junimo Migliorati. Se non è installato, le capanne Junimo non emetteranno fertilizzante o semi.",
+    "config.warn-for-missing-bridge-mod.name": "Avvisa in caso di mod mancante",
+    "config.warn-for-missing-bridge-mod.desc": "Decidi se registrare un avviso all'avvio se hai installato una mod per un macchinario personalizzato che richiede una patch di compatibilità separata che non è installata.",
+
+    // connectors
+    "config.title.connectors": "Abilita connettori",
+    "config.connector.desc": "Decidi se: {{itemName}} collega macchinari e casse assieme.",
+    "config.custom-connectors.name": "Connettori personalizzati",
+    "config.custom-connectors.desc": "I nomi inglesi esatti per gli oggetti che collegano tra loro macchine adiacenti. Puoi elencare più elementi utilizzando le virgole.", // note: connector names must be English even when playing in other languages
+
+    // machine overrides
+    "config.title.machine-overrides": "Override macchinari",
+    "config.override.ShippingBin-name": "Cassetta per spedizioni",
+    "config.override.MiniShippingBin-name": "Mini-Cassetta per spedizioni",
+    "config.override.desc": "Decidi se automatizzare: {{machineName}}.",
+    "config.custom-overrides-note": "Per override personalizzati, leggi https://github.com/Pathoschild/StardewMods/tree/develop/Automate#configure se ti serve aiuto per configurare il file config.json direttamente."
+}
